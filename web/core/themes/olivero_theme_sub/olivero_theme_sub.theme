@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Functions to alter Drupal's theme behavior.
+ */
+
+use Drupal\Core\Template\Attribute;
+
+/**
+ * Implements hook_preprocess_HOOK() for block templates.
+ */
+function olivero_theme_sub_preprocess_block(&$variables) {
+  // Example: Add a class to all blocks.
+  $variables['attributes']['class'][] = 'my-custom-block-class';
+}

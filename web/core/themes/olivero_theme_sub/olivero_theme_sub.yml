@@ -1,0 +1,20 @@
+name: "Olivero Theme Subtheme"
+type: theme
+description: "A child theme of Olivero."
+package: Custom
+core_version_requirement: ^11
+base theme: olivero
+
+# Specify regions
+regions:
+  header: "Header"
+  content: "Content"
+  sidebar: "Sidebar"
+  footer: "Footer"
+
+# Libraries
+libraries:
+  - olivero_theme_sub/global-styling
+
+# Screenshot (optional)
+screenshot: "screenshot.png"
